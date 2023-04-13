@@ -14,7 +14,6 @@ const JournalPage = () => {
 
       <div className="paraHold absolute">
         <p className="text-center">
-          {" "}
           Discover the world of natural through our eyes! From skincare tips,
           lifestyle and environmental hacks to inspirational interviews! Explore
           it all.
@@ -22,8 +21,7 @@ const JournalPage = () => {
       </div>
 
       <p className="fof text-3xl font-medium text-center absolute aprilBlogHeading">
-        {" "}
-        April Blog: Protective Haircare Styles and Tips{" "}
+        April Blog: Protective Haircare Styles and Tips
       </p>
 
       <div className="hairImgHold">
@@ -32,7 +30,6 @@ const JournalPage = () => {
 
       <div className="jhold flex flex-col absolute">
         <p>
-          {" "}
           We recently launched our new Deep Cleanse Hair Care regimen which is
           all about cleansing your hair deeply to remove years of build up from
           harsh products, pollutants, dirt and oils. To achieve luscious locks,
@@ -46,11 +43,7 @@ const JournalPage = () => {
         </p>
 
         <p>
-          {" "}
-          <li className="text-left mb-3 fof text-xl ">
-            {" "}
-            AVOID HEATING TOOLS{" "}
-          </li>{" "}
+          <li className="text-left mb-3 fof text-xl ">AVOID HEATING TOOLS</li>
           Have you been using hot styling products like straighteners or curlers
           to style your hair? Uh oh… this can lead to dry, damaged, and brittle
           hair. When your hair is exposed to high heat, that can change the
@@ -63,11 +56,9 @@ const JournalPage = () => {
         </p>
 
         <p>
-          {" "}
           <li className="text-left mb-3 fof text-xl ">
-            {" "}
-            SCALP HEALTH + STYLING{" "}
-          </li>{" "}
+            SCALP HEALTH + STYLING
+          </li>
           Like many of us, you may be focusing more on your scalp health to
           improve the look of your hair. For this you’ll likely be applying your
           hair serum, which tends to make your hair looking slightly greasy. A
@@ -78,11 +69,10 @@ const JournalPage = () => {
           securing your hair tie, twist your hair into a knotted bun and pin.
           Step 3: Then brush your front pieces into the bun, leaving the part in
           the middle. Tip: You can complete the look by applying hair spray or
-          gel to lock in this look.{" "}
+          gel to lock in this look.
         </p>
 
         <p>
-          {" "}
           <li className="text-left mb-3 fof text-xl "> YOUR PILLOWCASE </li> If
           your pillowcase hasn’t been changed in a month, its time to do so!! Or
           treat yourself, and upgrade your cotton pillowcase to a silk one. By

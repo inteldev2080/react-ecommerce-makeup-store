@@ -55,8 +55,7 @@ const CartHold = () => {
           <CartTotal totalPr={totalPrice} />
 
           <p className=" alsoLikeText relative fof text-4xl italic mb-10">
-            {" "}
-            YOU MAY ALSO LIKE{" "}
+            YOU MAY ALSO LIKE
           </p>
           <YouMayAlsoLike className="" />
           <CartPageFaq />

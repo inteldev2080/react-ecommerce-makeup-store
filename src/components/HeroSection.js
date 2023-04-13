@@ -14,9 +14,8 @@ const HeroSection = () => {
       <br />
 
       <p className="heroDescription relative text-xl flex flex-wrap">
-        {" "}
         The self care brand that's setting a new standard. Natural products, to
-        help you feel good in your own body.{" "}
+        help you feel good in your own body.
       </p>
 
       <div className="heroPicHold flex flex-row ">
@@ -33,16 +32,13 @@ const HeroSection = () => {
 
       <div className="heroDescHold flex-row flex relative text-base font-normal">
         <p>
-          {" "}
-          Aliquam venenatis vel lorem id <br /> nuaer mollis eget.{" "}
+          Aliquam venenatis vel lorem id <br /> nuaer mollis eget.
         </p>
         <p>
-          {" "}
-          Nulla tincidunt gravida augue, eget <br /> pellentesque.{" "}
+          Nulla tincidunt gravida augue, eget <br /> pellentesque.
         </p>
         <p>
-          {" "}
-          Aliquam sed diam fringilla, loborti <br /> sorci nec{" "}
+          Aliquam sed diam fringilla, loborti <br /> sorci nec
         </p>
       </div>
     </div>

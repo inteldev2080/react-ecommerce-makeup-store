@@ -124,8 +124,7 @@ const Body = () => {
                         className="rounded-xl  bodyTypeImage"
                       />
                       <p className=" text-center fs bodyTypeName">
-                        {" "}
-                        {item.name}{" "}
+                        {item.name}
                       </p>
                     </div>
                   </Link>
@@ -194,12 +193,10 @@ const Body = () => {
                           className=" rounded-xl w-40"
                         />
                         <p className=" font-semibold text-base px">
-                          {" "}
-                          {item.name}{" "}
+                          {item.name}
                         </p>
                         <p className="text-base font-normal text-center">
-                          {" "}
-                          ${item.price}{" "}
+                          ${item.price}
                         </p>
                       </div>
                     </Link>
@@ -240,12 +237,10 @@ const Body = () => {
                         className=" rounded-xl w-40"
                       />
                       <p className="font-semibold text-center text-base px">
-                        {" "}
-                        {item.name}{" "}
+                        {item.name}
                       </p>
                       <p className="text-base font-normal text-center">
-                        {" "}
-                        ${item.price}{" "}
+                        ${item.price}
                       </p>
                     </div>
                   </Link>

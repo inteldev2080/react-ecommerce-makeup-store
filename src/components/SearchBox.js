@@ -507,28 +507,23 @@ const SearchBox = () => {
             return (
               <div key={i.id} className="searchList relative">
                 <p className="font-semibold text-md mb-1 capitalize">
-                  {" "}
                   {i.name}
                 </p>
                 <p className="text-md mb-1">
-                  {" "}
                   {i.stars === 4 ? (
                     <div className="flex">
-                      {" "}
-                      <AiFillStar /> <AiFillStar /> <AiFillStar />{" "}
-                      <AiFillStar />{" "}
+                      <AiFillStar /> <AiFillStar /> <AiFillStar />
+                      <AiFillStar />
                     </div>
                   ) : (
                     <div className="flex">
-                      {" "}
-                      <AiFillStar /> <AiFillStar /> <AiFillStar />{" "}
-                      <AiFillStar /> <AiFillStar />{" "}
+                      <AiFillStar /> <AiFillStar /> <AiFillStar />
+                      <AiFillStar /> <AiFillStar />
                     </div>
-                  )}{" "}
+                  )}
                 </p>
                 <p className=" text-gray-500 font-semibold mb-1 capitalize">
-                  {" "}
-                  {i.heading}{" "}
+                  {i.heading}
                 </p>
                 <Highlighter
                   className="fof mb-1 w50rem capitalize mobdesc"
@@ -537,21 +532,18 @@ const SearchBox = () => {
                   autoEscape={true}
                   textToHighlight={i.description}
                 >
-                  {" "}
-                  {i.description}{" "}
+                  {i.description}
                 </Highlighter>
                 <p className="firstLetterHold rounded-full text-center pt-1 relative mb-1 capitalize">
-                  {" "}
-                  {i.name.charAt(0)}{" "}
+                  {i.name.charAt(0)}
                 </p>
               </div>
             );
-          })}{" "}
+          })}
       </div>
 
       <p className="popularKeyWordsText absolute text-2xl fof">
-        {" "}
-        POPULAR KEYWORDS{" "}
+        POPULAR KEYWORDS
       </p>
 
       <div className="keyWordHold w40rem uppercase flex fof flex-wrap gap-11">
@@ -559,36 +551,28 @@ const SearchBox = () => {
           SMELL
         </p>
         <p className="keyWord hover:bg-slate-200" onClick={skinHandler}>
-          {" "}
-          Skin{" "}
+          Skin
         </p>
         <p className="keyWord hover:bg-slate-200" onClick={fragClickHandler}>
-          {" "}
-          Fragrance{" "}
+          Fragrance
         </p>
         <p className="keyWord hover:bg-slate-200" onClick={tonerHnadler}>
-          {" "}
-          Toner{" "}
+          Toner
         </p>
         <p className="keyWord hover:bg-slate-200" onClick={hydraHnadler}>
-          {" "}
-          Hydration{" "}
+          Hydration
         </p>
         <p className="keyWord hover:bg-slate-200" onClick={faceClickHandler}>
-          {" "}
-          Face{" "}
+          Face
         </p>
         <p className="keyWord hover:bg-slate-200" onClick={mistClickHandler}>
-          {" "}
-          Mist{" "}
+          Mist
         </p>
         <p className="keyWord hover:bg-slate-200" onClick={glowClickHandler}>
-          {" "}
-          Glow{" "}
+          Glow
         </p>
         <p className="keyWord hover:bg-slate-200" onClick={boostClickHnadler}>
-          {" "}
-          Boost{" "}
+          Boost
         </p>
       </div>
     </div>

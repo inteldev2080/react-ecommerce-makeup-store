@@ -38,11 +38,10 @@ const GiftSets = () => {
                     className="GiftImage w-48 rounded-lg mb-6"
                   />
                   <p className="giftName text-center text-md mb-2">
-                    {" "}
-                    {item.name}{" "}
+                    {item.name}
                   </p>
                   <p className="giftPrice font-normal text-center">
-                    ${item.price}{" "}
+                    ${item.price}
                   </p>
                 </div>
               </Link>

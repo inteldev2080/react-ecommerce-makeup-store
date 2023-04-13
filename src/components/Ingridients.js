@@ -12,8 +12,7 @@ const Ingridients = () => {
   return (
     <div className="ingMainParent">
       <p className=" text-4xl ogtext font-medium text-center mb-16">
-        {" "}
-        OUR INGRIDENTS{" "}
+        OUR INGRIDENTS
       </p>
 
       <div className="ingImgHold flex flex-row gap-36 justify-center">

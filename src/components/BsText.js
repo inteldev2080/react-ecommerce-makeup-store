@@ -4,8 +4,7 @@ const BsText = () => {
   return (
     <div>
       <p className=" text-4xl lh6 font-semibold text-center mt-16 mb-10">
-        {" "}
-        OUR BEST SELLERS{" "}
+        OUR BEST SELLERS
       </p>
     </div>
   );

@@ -123,67 +123,59 @@ const SinglePage = () => {
       </div>
 
       <p className="relative singleLinetop text-gray-300">
-        {" "}
-        ___________________________________________________________________{" "}
+        ___________________________________________________________________
       </p>
 
       <div className=" relative gap-2 flex starHold">
         {numOfRev === 1 ? (
           <div className="flex">
-            {" "}
-            <AiFillStar />{" "}
+            <AiFillStar />
           </div>
         ) : (
           ""
         )}
         {numOfRev === 2 ? (
           <div className="flex">
-            {" "}
-            <AiFillStar /> <AiFillStar />{" "}
+            <AiFillStar /> <AiFillStar />
           </div>
         ) : (
           ""
         )}
         {numOfRev === 3 ? (
           <div className="flex">
-            {" "}
-            <AiFillStar /> <AiFillStar /> <AiFillStar />{" "}
+            <AiFillStar /> <AiFillStar /> <AiFillStar />
           </div>
         ) : (
           ""
         )}
         {numOfRev === 4 ? (
           <div className="flex">
-            {" "}
-            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />{" "}
+            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />
           </div>
         ) : (
           ""
         )}
         {numOfRev === 5 ? (
           <div className="flex">
-            {" "}
-            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />{" "}
-            <AiFillStar />{" "}
+            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />
+            <AiFillStar />
           </div>
         ) : (
           ""
         )}
 
         <p className="font-semibold l1rem">
-          {Math.floor(Math.random() * (999 - 100 + 1) + 100)} reviewes{" "}
+          {Math.floor(Math.random() * (999 - 100 + 1) + 100)} reviewes
         </p>
       </div>
 
       <p className="font-semibold text-md relative loyalty">
-        {" "}
-        YOU CAN EARN 50 LOAYLTY POINTS{" "}
+        YOU CAN EARN 50 LOAYLTY POINTS
       </p>
 
       <div className="spBtnHold relative">
         <button className="spAddTOCart" onClick={addItemToCartHandler}>
-          {" "}
-          ADD TO CART{" "}
+          ADD TO CART
         </button>
       </div>
 
@@ -192,8 +184,7 @@ const SinglePage = () => {
       </div>
 
       <p className="fof text-4xl spText absolute text-center">
-        {" "}
-        YOU MAY ALSO LIKE{" "}
+        YOU MAY ALSO LIKE
       </p>
       <AutoPlayMethods />
 

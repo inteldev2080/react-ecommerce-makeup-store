@@ -103,9 +103,7 @@ const NavBar = () => {
               )}
             </li>
 
-            <p className="navLine absolute bg-red-600 w-1 font-extralight h-9 z-50">
-              {" "}
-            </p>
+            <p className="navLine absolute bg-red-600 w-1 font-extralight h-9 z-50"></p>
           </ul>
 
           <Link to="/cart">

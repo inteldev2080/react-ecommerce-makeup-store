@@ -7,7 +7,7 @@ const EmptyCart = () => {
     <div className=" emptyCartMainParent text-center relative top-20">
       <div id="fs">
         <p className=" text-3xl fof uppercase " id="fs">
-          Cart Is Empty Maybe Order Something :){" "}
+          Cart Is Empty Maybe Order Something :)
         </p>
       </div>
 

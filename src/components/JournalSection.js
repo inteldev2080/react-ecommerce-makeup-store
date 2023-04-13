@@ -12,7 +12,6 @@ const JournalSection = () => {
           className=" w-72"
         />
         <p className=" mt-8">
-          {" "}
           Discover the world of natural through our <br />
           eyes! From skincare tips, lifestyle and <br />
           environmental hacks to inspirational
@@ -43,8 +42,7 @@ const JournalSection = () => {
 
       <div className="jsRightText flex flex-row gap-36 relative font-bold">
         <p>
-          {" "}
-          APRIL BLOG: PROTECTIVE HAIRCARE <br /> STYLE AND TIPS{" "}
+          APRIL BLOG: PROTECTIVE HAIRCARE <br /> STYLE AND TIPS
         </p>
         <p> SUKINS GUIDE TO A BACKYARD BBQ</p>
       </div>
