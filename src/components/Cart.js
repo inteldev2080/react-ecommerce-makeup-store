@@ -55,8 +55,7 @@ const Cart = (props) => {
         </div>
 
         <p className=" font-semibold relative text-xl cartName fof w-56 whitespace-nowrap">
-          {" "}
-          {title}{" "}
+          {title}
         </p>
         <p className=" relative w-24 cartPrice text-xl">${price} </p>
 

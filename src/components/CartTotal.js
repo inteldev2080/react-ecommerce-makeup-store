@@ -34,8 +34,7 @@ const CartTotal = (props) => {
 
       <div className=" relative totLine">
         <p className=" text-gray-300">
-          {" "}
-          ________________________________________________________{" "}
+          ________________________________________________________
         </p>
       </div>
 
@@ -45,8 +44,7 @@ const CartTotal = (props) => {
 
       <div className=" relative totLine2">
         <p className=" text-gray-300">
-          {" "}
-          ________________________________________________________{" "}
+          ________________________________________________________
         </p>
       </div>
 
@@ -115,8 +113,7 @@ const CartTotal = (props) => {
       {cartLen > 1 ? (
         <div className="mobDisappear">
           <p className="relative fof text-2xl text-center top-9">
-            {" "}
-            SECURELY CHCECKOUT WITH{" "}
+            SECURELY CHCECKOUT WITH
           </p>
 
           <CartAdditonalFeatures />

@@ -14,52 +14,45 @@ const Review1 = (props) => {
       </div>
 
       <p className="revLine1 text-gray-300">
-        {" "}
-        _____________________________________________________________________________________________________________________________________________________________________________________{" "}
+        _____________________________________________________________________________________________________________________________________________________________________________________
       </p>
 
       <div className="starHold2 flex gap-5 justify-center flex-row fof">
         <p className="text-gray-500 text-4xl font-semibold revSize">
-          {" "}
-          {starCalc}.{oneDigit}{" "}
+          {starCalc}.{oneDigit}
         </p>
         {starCalc === 1 ? (
           <div className="flex fs30 starLine">
-            {" "}
-            <AiFillStar />{" "}
+            <AiFillStar />
           </div>
         ) : (
           ""
         )}
         {starCalc === 2 ? (
           <div className="flex fs30 starLine">
-            {" "}
-            <AiFillStar /> <AiFillStar />{" "}
+            <AiFillStar /> <AiFillStar />
           </div>
         ) : (
           ""
         )}
         {starCalc === 3 ? (
           <div className="flex fs30 starLine">
-            {" "}
-            <AiFillStar /> <AiFillStar /> <AiFillStar />{" "}
+            <AiFillStar /> <AiFillStar /> <AiFillStar />
           </div>
         ) : (
           ""
         )}
         {starCalc === 4 ? (
           <div className="flex fs30 starLine">
-            {" "}
-            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />{" "}
+            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />
           </div>
         ) : (
           ""
         )}
         {starCalc === 5 ? (
           <div className="flex fs30 starLine">
-            {" "}
-            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />{" "}
-            <AiFillStar />{" "}
+            <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar />
+            <AiFillStar />
           </div>
         ) : (
           ""

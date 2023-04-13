@@ -113,7 +113,6 @@ const ForHim = () => {
       <div className="u20HeadingHold gap-20 justify-center relative flex flex-col">
         <p className="u20Heading">Natural Gifts For Him </p>
         <p className="u20Desc">
-          {" "}
           Shop Sukin natural and vegan collection of skincare and hair care
           gifts under $20.
         </p>
@@ -150,26 +149,22 @@ const ForHim = () => {
               className="ml-12 scale cursor-pointer scale"
               onClick={bodyLotionHandler}
             >
-              {" "}
               Body Lotion
             </p>
             <p className="ml-12 scale cursor-pointer" onClick={bodyWashHandler}>
-              {" "}
-              Body Wash{" "}
+              Body Wash
             </p>
             <p
               className="ml-12 scale cursor-pointer"
               onClick={bodyScrubHandler}
             >
-              {" "}
-              Body Scrub{" "}
+              Body Scrub
             </p>
             <p
               className="ml-12 scale cursor-pointer text-white"
               onClick={allShowHandler}
             >
-              {" "}
-              All Products{" "}
+              All Products
             </p>
           </div>
         )}
@@ -204,7 +199,7 @@ const ForHim = () => {
                           onMouseEnter={bgAddHandler}
                           onMouseLeave={bgRemoveHandler}
                         >
-                          Know More{" "}
+                          Know More
                         </button>
                         <p className="btnLine relative bg-black h-8"> </p>
                         <h2 className=" text-xl mb-2 fof u20Price">
@@ -249,7 +244,7 @@ const ForHim = () => {
                           onMouseEnter={bgAddHandler}
                           onMouseLeave={bgRemoveHandler}
                         >
-                          Know More{" "}
+                          Know More
                         </button>
                         <p className="btnLine relative bg-black h-8"> </p>
                         <h2 className=" text-xl mb-2 fof u20Price">
@@ -294,7 +289,7 @@ const ForHim = () => {
                           onMouseEnter={bgAddHandler}
                           onMouseLeave={bgRemoveHandler}
                         >
-                          Know More{" "}
+                          Know More
                         </button>
                         <p className="btnLine relative bg-black h-8"> </p>
                         <h2 className=" text-xl mb-2 fof u20Price">
@@ -339,7 +334,7 @@ const ForHim = () => {
                           onMouseEnter={bgAddHandler}
                           onMouseLeave={bgRemoveHandler}
                         >
-                          Know More{" "}
+                          Know More
                         </button>
                         <p className="btnLine relative bg-black h-8"> </p>
                         <h2 className=" text-xl mb-2 fof u20Price">
