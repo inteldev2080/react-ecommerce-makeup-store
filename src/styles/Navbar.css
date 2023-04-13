@@ -43,12 +43,14 @@ li {
 .dropdown:hover .dropdown-nav {
   opacity: 1;
   transform: translateY(0);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .dropdown-nav {
   opacity: 0;
-  transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1), opacity 0.3s ease-in-out;
+  transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1),
+    opacity 0.3s ease-in-out;
   transform: translateY(-4rem);
   list-style: none;
   margin: 0;
@@ -70,7 +72,8 @@ li {
 
 .dropdown-nav2 {
   opacity: 0;
-  transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1), opacity 0.3s ease-in-out;
+  transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1),
+    opacity 0.3s ease-in-out;
   transform: translateY(-4rem);
   list-style: none;
   margin: 0;
@@ -90,7 +93,8 @@ li {
 
 .dropdown-nav3 {
   opacity: 0;
-  transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1), opacity 0.3s ease-in-out;
+  transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1),
+    opacity 0.3s ease-in-out;
   transform: translateY(-4rem);
   list-style: none;
   margin: 0;
@@ -110,7 +114,8 @@ li {
 
 .dropdown-nav4 {
   opacity: 0;
-  transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1), opacity 0.3s ease-in-out;
+  transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1),
+    opacity 0.3s ease-in-out;
   transform: translateY(-4rem);
   list-style: none;
   margin: 0;
@@ -134,7 +139,7 @@ li {
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #031D44;
+  color: #031d44;
   padding: 60px 0px;
   margin: 0px 20px;
   display: inline-block;
@@ -163,12 +168,12 @@ li {
   height: 5px;
   content: "";
   position: absolute;
-  background-color: #031D44;
+  background-color: #031d44;
 }
 
 .navLine {
   left: 56.8rem;
   width: 1.5px !important;
   top: 2.8rem !important;
-  background-color: #031D44;
-}/*# sourceMappingURL=Navbar.css.map */
+  background-color: #031d44;
+} /*# sourceMappingURL=Navbar.css.map */

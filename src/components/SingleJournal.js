@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const SingleJournal = () => {
-  return (
-    <div>SingleJournal</div>
-  )
-}
+  return <div>SingleJournal</div>;
+};
 
-export default SingleJournal
+export default SingleJournal;
